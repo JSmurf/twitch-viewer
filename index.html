@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <h1 class="text-center" style="color: white; margin: 30px auto 30px auto;">Use the Twitch.tv JSON API</h1>
+  <div class="row buttons">
+    <div class="col-xs-4">
+      <button class="choose btn btn-warning active" id="all">All</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="choose btn btn-success" id="theirs">Free Code Camp</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="choose btn btn-info" id="mine">My Favorites</button>
+    </div>
+  </div>
+  
+  <div id="output">
+  </div>
+  
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

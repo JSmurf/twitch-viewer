@@ -1,0 +1,40 @@
+body {
+  background: #6441a4;
+}
+
+.buttons {
+  padding-bottom:20px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid black;
+  height: auto;
+  color: white;
+  border-radius: 5px;
+}
+
+.logo {
+  height: 75px;
+  border-radius: 10px;
+}
+
+.error {
+  background: #a44b41;
+}
+
+.online {
+  background: #41a464;
+}
+
+.offline {
+  background: gray;
+}
+
+a {
+  color: white;
+}
+
+#output{
+  padding-bottom: 50px;
+}
